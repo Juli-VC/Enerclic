@@ -1,0 +1,47 @@
+.graficDatabody {
+  .dataRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .bigCellGreen {
+    font-size: x-large;
+    font-weight: bold;
+    background-color: lime;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  .bigCellGrey {
+    font-size: x-large;
+    font-weight: bold;
+    background-color: gray;
+    justify-content: space-evenly;
+  }
+  .bigCellBlue {
+    font-size: large;
+    font-weight: bold;
+    background-color: skyblue;
+  }
+  .bigCellTotal {
+    font-size: x-large;
+    font-weight: bold;
+    background-color: goldenrod;
+  }
+  .normalCell {
+    margin: 10px, 0px;
+    color: rgb(5, 146, 5);
+  }
+
+  .dataGroup {
+    background-color: rgb(215, 208, 208);
+    border: none;
+    box-shadow: -1px 5px 20px -10px black;
+  }
+
+  h3 {
+    color: purple;
+    text-align: center;
+  }
+}

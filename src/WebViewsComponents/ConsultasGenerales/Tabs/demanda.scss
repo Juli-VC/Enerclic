@@ -1,0 +1,12 @@
+.demandaBody {
+  background-color: rgba(242, 228, 228, 0.605);
+  padding: 2%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  .demandaInner {
+    background-color: white;
+    padding: 2% 4%;
+    border-radius: 10px;
+    border-top: 10px solid #66bb6a;
+  }
+}

@@ -1,0 +1,37 @@
+.generationBody {
+  margin-bottom: 100px;
+  .tresData {
+    justify-content: space-evenly;
+    min-height: 180px;
+    background-color: rgba(242, 228, 228, 0.605);
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    .dataPercentages {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 2% 4%;
+
+      border-radius: 10px;
+      border-top: 10px solid #66bb6a;
+
+      box-shadow: -1px 5px 10px -5px black;
+    }
+  }
+  #graphicOuter {
+    background-color: rgba(242, 228, 228, 0.605);
+    padding: 2% 5%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    .graphic {
+      padding: 2% 4%;
+      border-radius: 10px;
+      border-top: 10px solid #66bb6a;
+
+      box-shadow: -1px 5px 10px -5px black;
+    }
+  }
+}
